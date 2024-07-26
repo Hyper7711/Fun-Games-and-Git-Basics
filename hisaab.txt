@@ -1,4 +1,4 @@
- aaj ka hissab hai -- 1200rs
+ sample content- aaj ka hissab hai -- 1200rs
 
  created this file to learn-
  stages got git-
