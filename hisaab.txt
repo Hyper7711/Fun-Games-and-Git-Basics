@@ -1,0 +1,7 @@
+ aaj ka hissab hai -- 1200rs
+
+ created this file to learn-
+ stages got git-
+ U - untracked
+ A - added or staged
+ C - commited
