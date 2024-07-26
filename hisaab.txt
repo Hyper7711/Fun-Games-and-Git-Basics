@@ -1,10 +1,19 @@
  sample content- aaj ka hissab hai -- 1200rs
 
  created this file to learn-
+
+ Lesson 1-
  stages got git-
  U - untracked
  A - added or staged
  C - commited
 
  Trail  of check point 
+ Trail done...
+
+ Lesson_2-
+ git operating commands :-
+ 1. git log --oneline # info about main and branches of the main files
+ 2. git log --ignore # to ignore the file, git will not consider the file
+ 3. git reset --hard/soft/mixid # to switch the main branch 
  
