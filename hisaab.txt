@@ -5,3 +5,6 @@
  U - untracked
  A - added or staged
  C - commited
+
+ Trail  of check point 
+ 
