@@ -1,12 +1,12 @@
 GITS BASICS :-
 
  Lesson 1-
- stages got git-
+ stages of the file in git-
  U - untracked
  A - added or staged
  C - commited
 
- Lesson_2-
+ Lesson 2-
  Git's commom and some advanced Operating Commands with their function :-
 
 1. **git init**: Initializes a new Git repository in the current directory.
@@ -62,4 +62,33 @@ GITS BASICS :-
 These commands cover most of the basic and some advanced Git operations you'll encounter in version control.
 
 
- 
+lesson 3 -
+GIT'S WORKFLOW :
+
+Initialize Repository:
+git init
+
+Clone Repository:
+git clone [url]
+
+Check Repository Status:
+git status
+
+Stage Changes:
+git add [file]
+
+Commit Changes:
+git commit -m "[message]"
+
+View Commit History:
+git log
+
+Branch Management:
+Create a new branch: git branch [branch-name]
+Switch branches: git checkout [branch-name] 
+Merge branches: git merge [branch-name]
+
+Sync with Remote:
+Fetch changes: git fetch
+Merge fetched changes: git pull
+Push changes: git push
