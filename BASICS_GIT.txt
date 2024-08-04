@@ -1,0 +1,65 @@
+GITS BASICS :-
+
+ Lesson 1-
+ stages got git-
+ U - untracked
+ A - added or staged
+ C - commited
+
+ Lesson_2-
+ Git's commom and some advanced Operating Commands with their function :-
+
+1. **git init**: Initializes a new Git repository in the current directory.
+
+2. **git clone [url]**: Creates a copy of an existing Git repository from a specified URL.
+
+3. **git add [file]**: Stages a file for the next commit.
+
+4. **git commit -m "[message]"**: Records changes to the repository with a message describing the changes.
+
+5. **git status**: Shows the current status of the repository, including staged, unstaged, and untracked files.
+
+6. **git log**: Displays the commit history of the repository.
+
+7. **git diff**: Shows the differences between the working directory and the staging area, or between two commits.
+
+8. **git branch**: Lists all branches in the repository. With an additional argument, it can also create a new branch (git branch [branch-name]).
+
+9. **git checkout [branch]**: Switches to the specified branch and updates the working directory.
+
+10. **git merge [branch]**: Merges the specified branch into the current branch.
+
+11. **git pull**: Fetches and merges changes from a remote repository into the current branch.
+
+12. **git push**: Uploads local branch commits to the remote repository.
+
+13. **git remote add [name] [url]**: Adds a remote repository with a specified name and URL.
+
+14. **git fetch**: Downloads objects and refs from another repository.
+
+15. **git rebase [branch]**: Reapplies commits on top of another base tip, which can help in maintaining a linear project history.
+
+16. **git reset [file]**: Unstages a file, keeping the changes in the working directory. git reset --hard [commit] resets the index and working directory to the specified commit.
+
+17. **git rm [file]**: Removes a file from the working directory and stages the removal for commit.
+
+18. **git stash**: Temporarily saves changes that are not ready to be committed.
+
+19. **git stash pop**: Applies the most recently stashed changes and removes them from the stash list.
+
+20. **git tag [tagname]**: Creates a tag to mark a specific point in the repository’s history.
+
+21. **git show [commit]**: Displays information about a commit, including changes made.
+
+22. **git mv [oldfile] [newfile]**: Renames or moves a file.
+
+23. **git remote -v**: Shows all the remote repositories and their URLs.
+
+24. **git cherry-pick [commit]**: Applies changes introduced by an existing commit.
+
+25. **git archive**: Creates a tar or zip file containing the contents of a single tree.
+
+These commands cover most of the basic and some advanced Git operations you'll encounter in version control.
+
+
+ 
