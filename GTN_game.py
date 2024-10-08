@@ -24,8 +24,3 @@ while attempts < max_attempts:
             print("Hint: The number is even.")
         else:
             print("Hint: The number is odd.")
-    
-    # If max attempts are reached
-    if attempts == max_attempts:
-        print(f"Sorry! You've used all {max_attempts} attempts. The correct number was {number}.")
-        break
