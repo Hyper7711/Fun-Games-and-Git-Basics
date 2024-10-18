@@ -1,5 +1,6 @@
 import random
 
+# Generate a random number between 1 and 100
 number = random.randint(1, 100)
 attempts = 0
 max_attempts = 10  # Limit the number of attempts to 10
@@ -24,3 +25,15 @@ while attempts < max_attempts:
             print("Hint: The number is even.")
         else:
             print("Hint: The number is odd.")
+    
+    # Provide an additional bonus hint after 7 wrong guesses
+    if attempts == 7:
+        if number % 3 == 0:
+            print("Bonus Hint: The number is divisible by 3.")
+        else:
+            print("Bonus Hint: The number is not divisible by 3.")
+        
+# If the user runs out of attempts
+if attempts == max_attempts:
+    print(f"Sorry, you've used all {max_attempts} attempts. The correct number was {number}.")
+
