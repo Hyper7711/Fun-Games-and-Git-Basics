@@ -6,12 +6,14 @@ words = ["python", "computer", "programming", "algorithm", "debugging",
 
 # Function to scramble the word
 
+
 def scramble_word(word):
     scrambled = list(word)
     random.shuffle(scrambled)
     return ''.join(scrambled)
 
 # Main game function
+
 
 def play_game():
     word = random.choice(words)  # Select a random word from the list
@@ -33,8 +35,8 @@ def play_game():
             print(f"Wrong guess! You have {attempts} attempts left.")
 
     if attempts == 0:
-        print(f"Sorry, you've used all your attempts.
-              The correct word was '{word}'.")
+        print(f"Better luch next time.The correct word was'{word}'.")
+
 
 # Run the game
 
