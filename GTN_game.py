@@ -36,4 +36,3 @@ while attempts < max_attempts:
 # If the user runs out of attempts
 if attempts == max_attempts:
     print(f"Sorry, you've used all {max_attempts} attempts. The correct number was {number}.")
-
