@@ -2,7 +2,7 @@ import random
 
 
 words_with_hints = [
-    # initial words
+    # WORDS
     ("python", "A popular programming language known for its simplicity."),
     ("computer", "An electronic device that can be programmed to carry out various tasks."),
     ("programming", "The process of designing and building an executable computer application."),
@@ -11,7 +11,6 @@ words_with_hints = [
     ("software", "A collection of data or computer instructions that tell the computer how to work."),
     ("function", "A block of organized, reusable code that is used to perform a single action."),
     ("variable", "A named location in memory that stores a value."),
-    # Added new words
     ("asynchronous", "A type of programming where tasks do not happen in a linear order."),
     ("recursion", "A function calling itself, commonly used in algorithms."),
     ("polymorphism", "A concept where a function or object can take on multiple forms."),
