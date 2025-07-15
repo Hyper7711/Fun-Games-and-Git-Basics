@@ -61,6 +61,6 @@ def tic_tac_toe():
         current_player = "O" if current_player == "X" else "X"
 
 
-# Run the game
+# Run 
 if __name__ == "__main__":
     tic_tac_toe()
