@@ -11,5 +11,5 @@ This repository contains beginner-friendly Python game projects and a useful gui
 ## 💡 Future Plans
 Looking to add more fun beginner-level games and expand the Git commands list as I explore more commands!
 
--------
+----
 
