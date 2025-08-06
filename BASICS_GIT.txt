@@ -92,3 +92,4 @@ Sync with Remote:
 Fetch changes: git fetch
 Merge fetched changes: git pull
 Push changes: git push
+s
